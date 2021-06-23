@@ -11,7 +11,6 @@ import '@nomiclabs/hardhat-waffle';
 // TODO: reenable solidity-coverage when it works
 // import "solidity-coverage";
 const PRIVATE_KEY = process.env.PRIVATE_KEY || "";
-const INFURA_API_KEY = process.env.INFURA_API_KEY || "";
 
 const config: HardhatUserConfig = {
   defaultNetwork: "matic",
